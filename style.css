@@ -1,0 +1,170 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.container {
+  max-width: 1080px;
+  margin: auto;
+}
+
+.top {
+  background-color: #1f2937;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header h2 {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.links {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.hero {
+  display: flex;
+  gap: 64px;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+
+h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.hero-left p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 8px;
+}
+
+.hero-left h1 {
+  margin: 0;
+}
+
+button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  border-color: white;
+}
+
+.image-placeholder {
+  background-color: #eee;
+  display: flex;
+  height: 250px;
+  width: 1200px;
+  background-color: grey;
+}
+
+.image-placeholder p {
+  align-self: center;
+  text-align: center;
+  width: 100%;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+h3 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  color: #1f2937;
+}
+.item {
+  width: 180px;
+}
+.box {
+  border: 5px solid #3882f6;
+  height: 180px;
+  border-radius: 10px;
+}
+
+.middle {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  color: grey;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.quote p {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+}
+.quote h4 {
+  font-size: 22px;
+  text-align: end;
+}
+
+.quote {
+  background-color: #e5e7eb;
+}
+.quote-container {
+  padding: 60px 0;
+  max-width: 790px;
+  margin: auto;
+}
+.call-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  max-width: 1080px;
+  margin: auto;
+  background-color: #3882f6;
+  border-radius: 10px;
+  color: white;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.call-left {
+  padding-right: 60px;
+}
+.call-left p {
+  margin-top: 5px;
+  margin-bottom: 40px;
+  color: #e5e7eb;
+}
+
+.call-left h4 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0;
+  margin-top: 40px;
+}
+
+.call-right {
+  padding-left: 60px;
+}
+.footer {
+  text-align: center;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  margin: 0;
+  padding: 20px;
+}
